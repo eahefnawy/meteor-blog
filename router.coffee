@@ -48,7 +48,7 @@ Router.map ->
   #
 
   @route 'blogTagged',
-    path: '/blog/tag/:tag'
+    path: '/tag/:tag'
     template: 'dynamic'
 
     waitOn: -> [
@@ -69,7 +69,7 @@ Router.map ->
   #
 
   @route 'blogShow',
-    path: '/blog/:slug'
+    path: '/post/:slug'
     template: 'dynamic'
     notFoundTemplate: 'blogNotFound'
 
@@ -112,7 +112,7 @@ Router.map ->
   #
 
   @route 'blogAdmin',
-    path: '/admin/blog'
+    path: '/admin'
     template: 'dynamic'
 
     onBeforeAction: (pause) ->
@@ -135,7 +135,7 @@ Router.map ->
   #
 
   @route 'blogAdminEdit',
-    path: '/admin/blog/edit/:id'
+    path: '/admin/edit/:id'
     template: 'dynamic'
 
     onBeforeAction: (pause) ->

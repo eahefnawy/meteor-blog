@@ -6,7 +6,9 @@
   "version": "0.5.2",
   "git": "https://github.com/Differential/meteor-blog.git",
   "packages": {
-    "iron-router": {},
+    "iron-router": {
+      "version": "0.8.2"
+      },
     "minimongoid": {},
     "moment": {},
     "roles": {},
