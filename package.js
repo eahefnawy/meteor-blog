@@ -46,6 +46,7 @@ Package.on_use(function(api) {
     'client/views/admin/admin.coffee',
     'client/views/admin/edit.html',
     'client/views/admin/edit.coffee',
+    'client/views/admin/adminNav.html',
     'client/views/blog/blog.less',
     'client/views/blog/blog.html',
     'client/views/blog/show.html',
